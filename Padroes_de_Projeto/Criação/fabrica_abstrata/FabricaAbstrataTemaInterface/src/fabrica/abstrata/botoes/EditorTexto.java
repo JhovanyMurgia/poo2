@@ -45,8 +45,8 @@ public class EditorTexto extends javax.swing.JFrame {
         }else if(tema.equalsIgnoreCase("tema2")){
         }                
                 
-        cancel = new JButton();
-        ok = new JButton();
+        cancel = new ButtonCancel();
+        ok = new ButtonOK();
         ok.setText("OK");
         cancel.setText("Cancel");
         
